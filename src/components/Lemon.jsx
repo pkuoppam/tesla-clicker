@@ -1,11 +1,11 @@
-import lemon from '../assets/tesla-big.svg'
+import tesla from '../assets/tesla-big.svg'
 
-function Lemon(props) {
+function Tesla(props) {
   return (
     <div className="lemon">
-      <img src={lemon} alt="lemon" onClick={props.onClick} />
+      <img src={tesla} alt="tesla" onClick={props.onClick} />
     </div>
   );
 }
   
-export default Lemon;
+export default Tesla;

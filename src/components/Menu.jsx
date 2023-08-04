@@ -1,6 +1,6 @@
-import iconLemon from '../assets/lemon.svg';
-import iconPackage from '../assets/package.svg';
-import iconSettings from '../assets/settings.svg';
+import iconTesla from '../assets/tesla.svg';
+import iconStore from '../assets/store.svg';
+import iconSettings from '../assets/settingsnew.svg';
 import { NavLink } from "react-router-dom";
 
 function Menu(props) {
@@ -8,11 +8,11 @@ function Menu(props) {
     return (
         <div className="menu">
           <div>
-            <NavLink to="/"><img src={iconLemon} alt="main" /></NavLink>
+            <NavLink to="/"><img src={iconTesla} alt="main" /></NavLink>
           </div>
           <div>
             <NavLink to="/store">
-              <img src={iconPackage} alt="store" />
+              <img src={iconStore} alt="store" />
               { props.items ? <span className="menu_badge">{props.items}</span> : null }
             </NavLink>
           </div>

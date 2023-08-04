@@ -1,4 +1,4 @@
-import iconLemon from '../assets/lemon.svg';
+import iconTesla from '../assets/tesla.svg';
 import shortenNumber from '../utils/shortenNumber';
 
 
@@ -7,7 +7,7 @@ function Header(props) {
         return (
           <div className="header header_sub">
             <h1>{props.children}</h1>
-            <div>{shortenNumber(props.balance)} <img src={iconLemon}/></div>
+            <div>{shortenNumber(props.balance)} <img src={iconTesla}/></div>
           </div>
         );
       } else {
