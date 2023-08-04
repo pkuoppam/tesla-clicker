@@ -17,7 +17,7 @@ function Item(props) {
       <div className="item_icon"><img src={url} alt=""/></div>
       <div className="item_desc">
         {props.item.name}<br/>
-        {shortenNumber(props.item.price)} <img src={iconTesla} alt="lemons" />
+        {shortenNumber(props.item.price)} <img src={iconTesla} alt="teslas" />
       </div>
       <div className="item_qty">{props.item.qty}</div>
     </div>

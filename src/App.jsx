@@ -21,10 +21,10 @@ function App() {
   }
 
   // Luodaan taltio, johon tallennetaan pelin laskennalliset tiedot.
-  const [stats, setStats, resetStats] = useLocalStorage('lemon-stats',initialstats);
+  const [stats, setStats, resetStats] = useLocalStorage('tesla-stats',initialstats);
 
   // Luodaan taltio, johon tallennetaan tuotelista.
-  const [storeitems,setStoreitems, resetStoreitems] = useLocalStorage('lemon-items',items);
+  const [storeitems,setStoreitems, resetStoreitems] = useLocalStorage('tesla-items',items);
   
   
   const handleClick = () => {
