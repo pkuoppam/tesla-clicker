@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto+Condensed:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 /* -- Värimäärittelyt ------------------------------------------------- */
 
 :root {
-  --primary: #FFB600;
-  --secondary: #E84855;
-  --neutral-lightest: #FFFFFF;
-  --neutral-light: #F3F3F3;
-  --neutral: #EBEBEB;
-  --neutral-dark: #999999;
-  --neutral-darker: #666666;
-  --neutral-darkest: #000000;
+  --primary: #d6b41a;
+  --secondary: #43a2eb;
+  --neutral-lightest: #1d1a1a;
+  --neutral-light: #d1dfb7;
+  --neutral: #c8dfc8;
+  --neutral-dark: #d3a8a8;
+  --neutral-darker: #383434;
+  --neutral-darkest: #4b565e;
 }
 
 /* -- yhteiset tyylimääritykset --------------------------------------- */
@@ -24,12 +24,12 @@
 body {
   background-color: var(--neutral);             /* sovelluksen taustaväri */
   color: var(--neutral-darker);                   /* sovelluksen tekstiväri */
-  font-family: 'Roboto Condensed', sans-serif;  /* sovelluksen fontti */
+  font-family: 'Montserrat', sans-serif;  /* sovelluksen fontti */
   font-size: 1.25em;                            /* sovelluksen tekstin koko */
 }
 
 h1 {
-  font-family: 'Boogaloo', cursive;             /* otsikon fontti */
+  font-family: 'Gentium Book Plus', serif;             /* otsikon fontti */
   font-weight: normal;                          /* otsikon paksuus */
 }
 
@@ -213,7 +213,7 @@ a.active .menu_badge {
 /* -- Lemon-komponentti ----------------------------------------------- */
 
 .lemon {
-  width: 60%;                          /* kuvan leveys 60% alueen leveydestä */
+  width: 65%;                          /* kuvan leveys 60% alueen leveydestä */
   margin: 0 auto;                      /* keskitetään kuva */
 }
 
