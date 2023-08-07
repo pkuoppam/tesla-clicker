@@ -1,12 +1,12 @@
 {
-  "name": "Lemon Clicker",
-  "short_name": "Lemonade",
+  "name": "Tesla Clicker",
+  "short_name": "TesClick",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#EBEBEB",
-  "background_color": "#EBEBEB",
+  "theme_color": "#C8DFC8",
+  "background_color": "#C8DFC8",
   "icons": [
     {
       "src": "/icons/manifest-icon-192.maskable.png",
