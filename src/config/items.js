@@ -75,8 +75,8 @@ export default [
     id: "modely",
     name: "Model Y",
     qty: 0,
-    baseprice: 9000000,
-    price: 9000000,
+    baseprice: 59000000,
+    price: 59000000,
     multiplier: 135000,
     image: "modely.svg"
   },
@@ -124,5 +124,23 @@ export default [
     price: 1040000000000,
     multiplier: 371000000,
     image: "roadster.svg"
+  },
+  {
+    id: "starlink",
+    name: "Starlink",
+    qty: 0,
+    baseprice: 7358733995068,
+    price: 7358733995068,
+    multiplier: 1760000000,
+    image: "starlink.svg"
+  },
+  {
+    id: "spacex",
+    name: "SpaceX",
+    qty: 0,
+    baseprice: 68737778897029,
+    price: 68737778897029,
+    multiplier: 8600000000,
+    image: "spacex.svg"
   },
 ];
