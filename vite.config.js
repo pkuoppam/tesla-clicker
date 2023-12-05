@@ -6,6 +6,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),
-            VitePWA({ manifest: manifest })],
+            VitePWA({ manifest: manifest,
+                      workbox: {
+                        globPatterns: ['**/*.{js,css,html,png,svg}']
+                      } })],
 })
 
